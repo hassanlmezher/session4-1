@@ -18,6 +18,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            transition: all 0.4s ease;
+        }
+        .header1:hover{
+            background-image: url(header.png);
+            background-size: 50%;
+            background-position: center;
+            
         }
         .h11{
             color: white;
@@ -38,7 +45,11 @@
             justify-content: center;
             align-items: center;
             height: 390px;
+            transition: all 0.4s ease;
 
+        }
+        .aside1:hover{
+            background-image: url(aside.jpeg);
 
         }
         .h12{
@@ -51,7 +62,13 @@
             margin-top: 20px;
             width: 960px;
             height: 390px;
+            transition: all 0.8s ease;
             
+        }
+        .article1:hover{
+            background-image: url(article.jpeg);
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0,0,0.15);
         }
         .div1{
             height: 50%;
@@ -91,6 +108,10 @@
         }
         .footer1{
             background-color: #02BFB1;
+            transition: all 0.5s ease;
+            text-size-adjust: 1px;
+            margin-left: 30px;
+            margin-right: 35px;
         }
         .h17{
             color: white;
@@ -102,25 +123,59 @@
             justify-content: center;
             align-items: center;
         }
+        .div21:hover{
+            background-image: url(image1.png);
+            background-position: center;
+            background-size: 120px;
+            background-repeat: no-repeat;            
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(74,144,226);    
+        
+        }
+        .div22:hover{
+            background-image: url(image2.png);
+            background-position: center;
+            background-size: cover;            
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(142,68,173);
+        }
+        .div23:hover{
+            background-image: url(image3.png);
+            background-position: center;
+            background-size: cover;            
+        }
+    
+        .div22{
+            transition: all 0.5s ease;
+        }
+        .div23{
+            transition: all 0.5s ease;
+        }
+        .div21{
+            transition: all 0.5s ease;
+        }
+        .footer1:hover{
+            background-image: url(footer.jpeg);
+        }
         
     </style>
 </head>
 <body>
-    <header class="header1">
+    <header class="header1 alll">
         <h1 class="h11">Header</h1>
     </header>
     <main class="main1">
-        <aside class="aside1">
+        <aside class="aside1 alll">
             <h1 class="h12">Aside</h1>
         </aside>
-        <article class="article1">
+        <article class="article1  alll">
             <div class="div1">
                 <h1 class="h13">Article</h1>
             </div>    
-            <div class="div2"><div class="div21 divall"><h1 class="h14">Image</h1></div><div class="div22 divall"><h1 class="h15">Image</h1></div><div class="div23 divall"><h1 class="h16">Image</h1></div>
+            <div class="div2"><div class="div21 divall alll"><h1 class="h14">Image</h1></div><div class="div22 divall alll"><h1 class="h15">Image</h1></div><div class="div23 divall alll"><h1 class="h16">Image</h1></div>
         </article>
     </main>
-    <footer class="footer1">
+    <footer class="footer1 alll">
         <h1 class="h17">footer</h1>
     </footer>
 </body>
